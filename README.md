@@ -1,6 +1,6 @@
-# ChemSequence: Chemical Mixture Hazard Prediction via Sequence Modeling
+# RoMSH: RT-ordered Mixture Sequence Modeling for Hazard Prediction
 
-**ChemSequence** is a deep learning framework for predicting fire hazard labels of multi-component chemical mixtures using GC-MS chromatographic data (SMILES sequences, retention times, and abundance profiles).
+**RoMSH** is a deep learning framework for predicting fire hazard labels of multi-component chemical mixtures using GC-MS chromatographic data (SMILES sequences, retention times, and abundance profiles).
 
 ## Overview
 
@@ -16,15 +16,15 @@ Given a chemical mixture represented as a set of SMILES strings with retention t
 ## Repository Structure
 
 ```
-ChemSequence/
+RoMSH/
 ├── run.bat          # Main training script for all 6 dataset splits
 ├── train.py      # Proposed model training entry point
 ├── pretrain_mlm.py                # SMILES MLM pretraining
 ├── metrics.py                     # Evaluation metrics (AUROC, AUPRC, Jaccard, etc.)
 │
 ├── models/
-│   ├── chemseq_model.py           # ChemSeqModel (main proposed architecture)
-│   ├── loss_function.py           # ChemSeqLoss (focal, contrastive, fuel, context)
+│   ├── chemseq_model.py           # RoMSH Model (main proposed architecture)
+│   ├── loss_function.py           # RoMSH Loss (focal, contrastive, fuel, context)
 │   ├── mlm_model.py               # SmilesMLMModel for pretraining
 │   ├── attn_transformer.py        # Pre-norm transformer blocks
 │   ├── smiles_trfm_encoder.py     # SMILES token encoder with sinusoidal PE
@@ -116,7 +116,7 @@ run_proposed_all6.bat
 
 This script:
 1. **Pretrains** a SMILES MLM encoder on the provided corpus (if not already cached under `results_mlm/`)
-2. **Trains** the proposed ChemSeqModel on each split listed in the loop
+2. **Trains** the proposed RoMSH on each split listed in the loop
 3. **Evaluates** on the test set with threshold tuning and temperature scaling
 4. **Aggregates** results into `results_chemseq/proposed_all6_summary.csv`
 
@@ -133,7 +133,7 @@ python pretrain_mlm.py \
 
 Run proposed model training:
 ```bash
-python train_chemseq_proposed.py \
+python train.py \
     --train_csv data/Scaffold/C1_random_id/train.csv \
     --val_csv data/Scaffold/C1_random_id/val.csv \
     --test_csv data/Scaffold/C1_random_id/test.csv \
