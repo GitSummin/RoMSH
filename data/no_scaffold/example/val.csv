@@ -1,0 +1,6 @@
+mixture,rts,abundance,label,gid,fuel_proxy,env_id,mix_size,ab_entropy,ab_entropy_norm,dominant_abundance,rt_span,env_name,env_source
+CCC(C)CC(C)(C)C COC1C2C=CC1C1C=CC2C1O,5.108 11.993,0.680523 0.319477,1,NotScaffold_C1_random_id_val_100000,0.831378,1,2,0.626475,0.903812,0.680523,6.885,k:small|ent:mixed,fixed_6env
+CC(=O)O[C@H]1CCC[C@H]1C C=C1C(=O)O[C@@H]2[C@H]1[C@H](O)C[C@]1(C)[C@@H](O)CC=C(C)[C@@H]21,2.268 16.780,0.262366 0.737634,0,NotScaffold_C1_random_id_val_100001,0.040989,1,2,0.575517,0.830296,0.737634,14.512,k:small|ent:mixed,fixed_6env
+CCC(C)CC CC(C)C(C)C(C)C CCc1cc(C)cc(CC)c1,2.131 4.175 11.195,0.094556 0.630753 0.274691,1,NotScaffold_C1_random_id_val_100002,0.94,2,3,0.868623,0.790655,0.630753,9.064,k:mid|ent:peaked,fixed_6env
+CC(=O)OCC(=O)O OC1CCCC2OC2CC1,4.796 8.472,0.293863 0.706137,0,NotScaffold_C1_random_id_val_100003,0.076491,1,2,0.605575,0.87366,0.706137,3.676,k:small|ent:mixed,fixed_6env
+CCc1ccccc1C CC1CCC2CCCCC2C1,9.084 10.830,0.277284 0.722716,1,NotScaffold_C1_random_id_val_100004,0.94,1,2,0.590369,0.851723,0.722716,1.7465,k:small|ent:mixed,fixed_6env

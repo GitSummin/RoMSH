@@ -1,0 +1,11 @@
+mixture,rts,abundance,label,gid,fuel_proxy,env_id,mix_size,ab_entropy,ab_entropy_norm,dominant_abundance,rt_span,env_name,env_source
+CCCC(C)C(C)C CC(C)CCC(C)(C)C Cc1ccccc1C,4.461 5.097 7.385,0.706155 0.275975 0.017870,1,NotScaffold_C1_random_id_train_000000,0.94,2,3,0.672909,0.612508,0.706155,2.9235,k:mid|ent:peaked,fixed_6env
+CC(=O)OC/C=C(\C)CO CC1(C)C2C3CC1(C)C(O)C32,2.971 6.853,0.710788 0.289212,0,NotScaffold_C1_random_id_train_000001,0.043137,1,2,0.601445,0.867702,0.710788,3.882,k:small|ent:mixed,fixed_6env
+CC(C)CCC(C)C N=C(N)N1CCc2ccccc2C1,3.764 11.284,0.614218 0.385782,1,NotScaffold_C1_random_id_train_000002,0.808834,1,2,0.666824,0.962023,0.614218,7.52,k:small|ent:mixed,fixed_6env
+CC1(CCCO)OCCCO1 CCCCC1=C(C)CCC1=O CC12CCC(O)CC1=CC=C1C2=CCC2(C)C(=O)CCC12,5.105 9.637 20.656,0.224069 0.073943 0.701988,0,NotScaffold_C1_random_id_train_000003,0.082074,2,3,0.776134,0.706468,0.701988,15.551,k:mid|ent:peaked,fixed_6env
+CC(C)CCOCc1ccccc1 CCC(C)CCCC(C)CCCC(C)C,4.575 6.322,0.351314 0.648686,1,NotScaffold_C1_random_id_train_000004,0.855685,1,2,0.648256,0.935236,0.648686,1.747,k:small|ent:mixed,fixed_6env
+C[C@]12CCCC[C@@]1(O)CC(=O)CC2 O=C1CC(O)CO1,9.399 11.559,0.293633 0.706367,0,NotScaffold_C1_random_id_train_000005,0.043491,1,2,0.605373,0.873369,0.706367,2.16,k:small|ent:mixed,fixed_6env
+CCC(C)CC(C)(C)C CCC(C)CCC(C)C CCCCCC(C)CC CCC(C)C1CCCCC1,5.108 6.482 7.236 9.797,0.601043 0.023375 0.372628 0.002954,1,NotScaffold_C1_random_id_train_000006,0.94,4,4,0.778839,0.561813,0.601043,4.689,k:large|ent:peaked,fixed_6env
+CC1(Oc2ccccc2)CC(C#N)C1 CCCCCCCCCCCCCN1CC(C)OC(C)C1 C/C=C/c1ccc(OC)c(O)c1,3.615 11.272 14.204,0.712735 0.155219 0.132046,0,NotScaffold_C1_random_id_train_000007,0.1,2,3,0.797865,0.726248,0.712735,10.589,k:mid|ent:peaked,fixed_6env
+CCCCC/C=C\CCCCCC C(=C\C1CCCCC1)\CC1CCCCC1,5.957 9.180,0.371065 0.628935,1,NotScaffold_C1_random_id_train_000008,0.94,1,2,0.65952,0.951487,0.628935,3.223,k:small|ent:mixed,fixed_6env
+C=C1CC=CC1 Cc1c(O)nc[nH]c1=O,2.517 10.833,0.283476 0.716524,0,NotScaffold_C1_random_id_train_000009,0.127721,1,2,0.596206,0.860144,0.716524,8.316,k:small|ent:mixed,fixed_6env
