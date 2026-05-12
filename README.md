@@ -194,4 +194,4 @@ Auxiliary outputs:
 
 ## License
 
-This project is for research purposes. Please cite the associated paper if you use this code in your work.
+-
